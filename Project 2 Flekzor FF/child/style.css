@@ -1,0 +1,130 @@
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+   /*About US CSS*/
+
+
+
+body {
+	background-image: linear-gradient(to right,#000,#020615,#030A22,#000);
+}
+
+.banner {
+	background-image: url(img/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:550px;
+	position: relative;
+	color:#eee;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); 
+}
+
+.overlay-fixed {
+	background-color:#0C2268;
+	opacity: 0.3;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.banner a{
+	font-weight:1000;
+	font-size:55px;
+	font-family: 'Courgette', cursive;
+	text-decoration: none;
+	color:#dcdcdc;
+	margin-left:30px;
+}
+.banner a:hover {
+	color:#ccc;
+}
+.banner h1 {
+    text-align: center;
+    padding:140px;
+    font-size:50px;
+    font-weight:1000;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+   
+.navbar a {
+	font-weight:bolder;
+	font-size:20px;
+	margin:0 10px;
+	text-transform: uppercase;
+}
+.navbar span {
+	border:2px solid white;
+	padding:5px;
+	border-radius:7px;
+}
+.title {
+	color:#dcdcdc;
+	border:2px solid #dcdcdc;
+	margin:auto;
+	padding:20px;
+	text-align: center;
+	box-shadow:7px 9px 7px #041446;
+
+}
+.footer {
+	background-color:#09090A;
+	color:#dcdcdc;
+	font-family: sans-serif;
+}
+
+.footer h3 {
+	font-weight: bolder;
+	text-transform: uppercase;
+	color:#aaa;
+}
+.footer p {
+	color:#fff;
+}
+.footer a{
+	color:#dcdcdc;
+}
+.footer a:hover {
+	color:#aaa;
+
+}
+
+
+
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 800px) { 
+   .banner a{
+   	font-size:45px;
+   }
+   .banner h1 {
+   	font-size:35px;
+   	text-align: center;
+   	padding:80px 0;
+   }
+   .banner {
+   	-webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%); 
+    height:450px;
+   }
+   .navbar button {
+   	margin:auto;
+   }
+   .navbar a {
+   	text-align: center;
+   }
+   .title {
+   	margin:10px 0;
+   }
+ .footer h3 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color:#aaa;
+  font-size:18px;
+}
+.footer img {
+  width:250px;
+}
+}

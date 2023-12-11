@@ -1,0 +1,50 @@
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+   /*About US CSS*/
+
+
+
+body {
+	background-image: linear-gradient(to right,#000,#020615,#030A22,#000);
+}
+
+.navbar span {
+    border:2px solid white;
+    padding:7px;
+    border-radius:10px;
+   }
+
+   .navbar button {
+    margin:auto;
+   }
+   .navbar a{
+    text-align: center;
+   }
+   .navbar a,li{
+  font-size:18px;
+  color:#dcdcdc;
+  text-transform: uppercase;
+  font-weight:600;
+}
+.navbar span {
+  border:2px solid white;
+  border-radius:7px;
+}
+
+.contact {
+	background-image: linear-gradient(to right,#000,#001,#11124F,#20227D);
+	text-align:center;
+	padding:70px 0;
+}
+.contact h2 {
+	font-weight:1000;
+	font-size:34px;
+	color:#aaa;
+	text-transform: uppercase;
+}
+.contact p {
+	color:#dcdcdc;
+	font-weight: bolder;
+	font-size:16px;
+	border-bottom:2px solid #dcdcdc;
+}
